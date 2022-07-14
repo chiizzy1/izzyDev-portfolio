@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/bonus.css">
+    <link rel="stylesheet" href="css/config.css">
+    <!--  Change your name here.  -->
+    <title>Chinwuba</title>
+
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <!-- EmailJs Cdn -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("DccmVtxtHvPZp1h2G");
+        })();
+    </script>
+
+</head>
+<body>
+<main class="glassMorphism">
+    <header class="header">
+        <div class="container header-container">
+            <nav class="desktopNav">
+                <div class="brand-title">IzzyDev.</div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+
+                <div class="navbar-links">
+                    <ul class="list-item">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#socials">Socials</a></li>
+                        <!-- <button class="actionButton" id="connect">Download </button> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class=" about" id="about">
+        <div class="container">
+            <div class="mainBanner">
+                <div class="mainIconContainer ">
+                    <!--Insert your 1:1 PFP here.-->
+                    <img class="mainIcon" src="img/profileImg.png" alt="Personal Profile">
+                    <!--Bonus textbox dummy, courtesy of Savio Martin @saviomartin7.-->
+                    <span class="mainTextBox"></span>
+                </div>
+                <div class="mainText">
+                    <h1>
+                        <!-- Insert your name below, replace Bob Coder by anything -->
+                        <span>Hi!</span> I'm Chinwuba Izzy, a
+                        <strong class="rotatingTextOuter">
+                            <!-- The overlay is a dummy. Will remain "software engineer" if JavaScript is disabled.-->
+                            <span class="rotatingTextOverlay"><span
+                                    class="rotatingTextInner">Software Engineer.</span>
+                            </span>
+                        </strong>
+                    </h1>
+                    <!--Description about you. Can add a bio blurb.-->
+                    <p class="description">I love answers!
+
+                        Previously an Amazon Software Engineer and I am always thinking about code and this passion often leads me to solve my coding problem, while I’m jogging, playing guitar, watching physics documentaries, or cooking fajitas for breakfast. I'll figure out the answer then rush to my computer to see it work.
+                        
+                        My name is Shawn Charles. I’m a passionate child of parents who emigrated from Guyana, passionate about creating community within the tech space, And a passionate software engineer who will do whatever it takes to find an answer.
+                        
+                        Get in touch to find the next answer together!.</p>
+                    <!--Email me button. Change the href-->
+                    <a class="actionButton" href="mailto:bobcoder@gmail.com">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <ul class="servicesList">
+                A list of what you can offer. 4 list items recommended.
+                <li class="modularCard glassMorphism">
+                    <img src="img/serviceIcons/WebDevelopment.svg" alt="Web Development">
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at dicta, dignissimos enim harum incidunt ipsum molestias necessitatibus nemo nihil nulla quibusdam reprehenderit temporibus unde.</p>
+                </li>
+                <li class="modularCard glassMorphism">
+                    <img src="img/serviceIcons/ResponsiveWeb.svg" alt="Responsive Design on Multiple Devices">
+                    <h3>Responsive Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolores maxime minus quos ratione tempore temporibus voluptates. Adipisci fuga inventore nisi perspiciatis repellat unde!</p>
+                </li>
+                <li class="modularCard glassMorphism">
+                    <img src="img/serviceIcons/Illustration.svg" alt="Illustration">
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa eius est fugiat harum iure magnam molestiae, nisi provident reprehenderit saepe similique soluta suscipit tempora?</p>
+                </li>
+                <li class="modularCard glassMorphism">
+                    <img src="img/serviceIcons/BackInTime.svg" alt="Twitter Promotion">
+                    <h3>Extend Compatibility to Older Devices</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloribus est illo tempore ullam. Adipisci dignissimos enim nemo nesciunt quidem, recusandae reiciendis suscipit tenetur totam.</p>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <div  id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="my-services">
+                <div class="my-service modularCard glassMorphism">
+                    <img src="img/serviceIcons/WebDevelopment.svg" alt="Web Development">
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nam? Iusto optio ut nemo rem.</p>
+                </div>
+                <div class="my-service modularCard glassMorphism">
+                    <img src="img/serviceIcons/ResponsiveWeb.svg" alt="Responsive Design on Multiple Devices">
+                    <h3>Responsive Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nam? Iusto optio ut nemo rem.</p>
+                </div>
+                <div class="my-service modularCard glassMorphism">
+                    <img src="img/serviceIcons/BackInTime.svg" alt="Twitter Promotion">
+                    <h3>Extend Compatibility to Older Devices</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nam? Iusto optio ut nemo rem.</p>
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+
+
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul class="proficiencyList">
+                <!--A list of what skills you have. Multiples of 8 list items recommended (example: 8, 16, 24, 32).-->
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/HTML5.svg" alt="HTML">
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/CSS3.svg" alt="CSS">
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/JS.svg" alt="JavaScript">
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/Git.svg" alt="Git">
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/icons8-react-native-100.svg" alt="React">
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/express-js-seeklogo.com.svg" alt="Express Js">
+                </li>
+                
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/icons8-mongodb.svg" alt="MongoDB">
+                </li>
+                <li class="modularCard glassMorphism proficiencyCard">
+                    <img src="img/proficiencyIcons/icons8-nodejs.svg" alt="Node">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects!</h2>
+            <ul class="projectList">
+                <!--Multiples of 6 items recommended (e.g. 6, 12,...)-->
+                <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/teslagif.gif" alt="lorem">
+                        <h3 class="project-heading">Tesla Clone</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, illum, quam! Consequatur consequuntur corporis delectus dolor, illo ipsum optio repudiandae!</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                            <li class="glassMorphism">JavaScript</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/travel.gif" alt="lorem">
+                        <h3 class="project-heading">Travel Agency Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet facilis necessitatibus non, perferendis sapiente sint vero? Amet eius facere minus.</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                            <li class="glassMorphism">JavaScript</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/websites/placeholder.jpg" alt="lorem">
+                        <h3 class="project-heading">Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi aperiam asperiores dignissimos illo iusto omnis pariatur placeat reprehenderit sint.</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                            <li class="glassMorphism">JavaScript</li>
+                            <li class="glassMorphism">REST APIs</li>
+                        </ul>
+                    </a>
+                </li>
+                <!-- <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/websites/placeholder.jpg" alt="lorem">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consequatur eaque eveniet exercitationem hic in nostrum repellendus sint voluptate.</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                            <li class="glassMorphism">JavaScript</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/websites/placeholder.jpg" alt="lorem">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea et libero, modi quia quidem sequi voluptas? Corporis cupiditate, tenetur!</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="modularCard withLinks glassMorphism">
+                    <a href="#">
+                        <img src="img/websites/placeholder.jpg" alt="lorem">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ex fugiat itaque natus neque quisquam quod repellendus suscipit ut vero.</p>
+                        <ul class="projectTags">
+                            <li class="glassMorphism">HTML</li>
+                            <li class="glassMorphism">CSS</li>
+                        </ul>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get in touch</h2>
+            <div class="contact modularCard glassMorphism" id="contact">
+                <form class="mail-container">
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="firstName" required="required">
+                                <span class="text">First Name</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="lastName" required="required">
+                                <span class="text">Last Name</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="email" id="clientEmail" required="required">
+                                <span class="text">Email</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="emailSubject" required="required">
+                                <span class="text">Subject</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box textarea">
+                                <textarea id="message" required="required"></textarea>
+                                <span class="text">Type your message here...</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="send-mail" id="sendMail">
+                        <button class="mail-submit-btn"  href="#">Send Mail</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="socials">
+        <div class="container">
+            <h2>My social platforms</h2>
+            <div class="mySocials">
+                <div class=" socialIcon">
+                    <a href="https://twitter.com/Chinwuba15?t=5eLJykgoXR9MSyEI2pWK-Q&s=09" target="_blank">
+                        <img src="img/socials/icons8-twitter-squared-96.png" alt="twitter">
+                    </a>
+                </div>
+                <div class=" socialIcon">
+                    <a href="https://www.linkedin.com/in/chinwuba-chukwudi-2a0164236" target="_blank">
+                        <img src="img/socials/icons8-linkedin-96.png" alt="linkedin">
+                    </a>
+                </div>
+                <div class="  socialIcon">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBZpHvKhCgtcSshjXbChpcnchWrcmdvKWwKQHjPXDXtRlQRsVnMxTZwmlfmBkXcdnwLCL"  target="_blank">
+                        <img src="img/socials/icons8-mail-96.png" alt="email">
+                    </a>
+                </div>
+                <div class=" socialIcon">
+                    <a href="https://github.com/chiizzy1" target="_blank">
+                        <img src="img/socials/icons8-github-96.png" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!--Your contact info here.-->
+<!-- <div class="fullScreenOverlay" id="linkTreeModal" style="display: none">
+    <nav class="linkTree glassMorphism">
+        <div class="modalNavbar">
+            <h2>Let's connect!</h2>
+            <i class="fa-solid fa-xmark" targetElement="linkTreeModal"></i>
+        </div>
+        <ul class="links">
+            <li class="modularCard withLinks glassMorphism">
+                <a href="https://twitter.com/bobcoder" target="_blank">
+                    <h3>Twitter</h3>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="modularCard withLinks glassMorphism">
+                <a href="https://linkedin.com/in/bobcoder" target="_blank">
+                    <h3>LinkedIn</h3>
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="modularCard withLinks glassMorphism">
+                <a href="mailto:bobcoder@gmail.com">
+                    <h3>Email</h3>
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <li class="modularCard withLinks glassMorphism">
+                <a href="https://github.com/bobcoder" target="_blank">
+                    <h3>GitHub</h3>
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div> -->
+
+
+
+</body>
+<script src="https://kit.fontawesome.com/bac08de2ab.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+<script src="js/toggleBtn.js"></script>
+<script src="js/configRotatingText.js"></script>
+<script src="js/email.js"></script>
+<script src="js/configProjectTagColor.js"></script>
+<script src="js/configInteractivePFPText.js"></script>
+</html>
