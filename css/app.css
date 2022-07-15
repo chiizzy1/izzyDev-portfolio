@@ -226,7 +226,6 @@ main, .linkTree {
     padding: 0.75rem;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.3rem;
     background:  linear-gradient(90deg, #00bbff 0%,#b041ff 100%);
     border: none;
     color: rgb(255, 255, 255);
