@@ -1,8 +1,8 @@
 :root {
     /*This configures the gradient color of the buttons.*/
-    --mainGradient: linear-gradient(90deg, #616567 0%, #5f8ca6 100%);
+    --mainGradient: linear-gradient(90deg, #76e1ff 0%, #e8c8ff 100%);
     /*This configures the gradient color of the text. Make it darker.*/
-    --textGradient: linear-gradient(90deg, #62def4 0%, orangered 100%);
+    --textGradient: linear-gradient(90deg, #00bbff 0%, #46404a 100%);
     /*Set the gradient color of the card.*/
     --cardTransparency: 0.4;
     /*Configures how much the content behind glass layers blurs. May cause severe performance issues. Comment the line to disable it.*/
