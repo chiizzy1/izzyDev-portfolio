@@ -24,7 +24,8 @@ function sendMail(params){
             console.log('FAILED...', error);
         }),
         setTimeout(() => {
-            [firstName.value, lastName.value, clientEmail.value, clientMessage.value, emailSubject.value] = Array(5).fill('')
+            // [firstName.value, lastName.value, clientEmail.value, clientMessage.value, emailSubject.value] = Array(5).fill('')
+            window.location.reload();
           }, 3000)    
 }
 

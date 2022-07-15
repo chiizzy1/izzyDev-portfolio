@@ -228,7 +228,7 @@ main, .linkTree {
     font-family: 'Rubik', sans-serif;
     background:  linear-gradient(90deg, #00bbff 0%,#b041ff 100%);
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: rgba(12, 107, 107, 0.8) 0px 0px 28px -16px, rgb(0 0 0 / 72%) 0px 20px 16px -10px;
 }
