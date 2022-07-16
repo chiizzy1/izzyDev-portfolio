@@ -237,7 +237,7 @@ main, .linkTree {
     transform: scale(1.05);
 }
 .mainIconContainer {
-    position: relative;
+    position: relative; 
     margin-block: 1rem;
     z-index: 0;
 }
