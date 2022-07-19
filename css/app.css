@@ -210,10 +210,11 @@ main, .linkTree {
 .my-service{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     /* justify-content: center; */
     text-align: left;
 }
+
 .my-service img{
     width: 5em;
 }
