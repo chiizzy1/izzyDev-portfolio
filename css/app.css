@@ -218,6 +218,11 @@ main, .linkTree {
     width: 5em;
 }
 
+.project-description{
+    text-align: left;
+    font-size: .8rem;
+}
+
 /* .desktopNav a {
     padding: 0.75rem;
 } */
