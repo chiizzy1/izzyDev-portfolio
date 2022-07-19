@@ -321,6 +321,7 @@ main, .linkTree {
 
 .bold{
     font-weight: bold;
+    text-align: left;
 }
 
 .projectList, .proficiencyList, .cssArtList, .illustrationList, .links {
