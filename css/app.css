@@ -33,6 +33,11 @@ body, .fullScreenOverlay {
     margin: 0 auto;
 }
 
+.tech-used{
+    font-size: .8rem;
+}
+
+
 .header-container{
     width: 84%;
     max-width: 1500px;
