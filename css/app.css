@@ -210,16 +210,15 @@ main, .linkTree {
 .my-service{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     /* justify-content: center; */
-    /* text-align: center; */
+    text-align: left;
 }
 .my-service img{
     width: 5em;
 }
 
 .project-description{
-    text-align: left;
     font-size: .9rem;
 }
 
