@@ -210,7 +210,7 @@ main, .linkTree {
 .my-service{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
     text-align: left;
 }
@@ -321,7 +321,6 @@ main, .linkTree {
 
 .bold{
     font-weight: bold;
-    text-align: left;
 }
 
 .projectList, .proficiencyList, .cssArtList, .illustrationList, .links {
