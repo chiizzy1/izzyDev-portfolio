@@ -245,8 +245,11 @@ main, .linkTree {
 }
 
 .actionButton:hover{
-    transform: scale(1.05);
+    background: none;
+    color: #000;
+    border: 1px solid black;
 }
+
 .mainIconContainer {
     position: relative; 
     margin-block: 1rem;
@@ -342,15 +345,20 @@ main, .linkTree {
 }
 
 .innerCardLink{
-    background: #00bbff;
+    background: rgba(255, 68, 0, 0.414) ;
     padding: 0.2em;
     border-radius: 6px;
     font-family: 'Rubik', sans-serif;
     font-size: .75rem;
 }
 
+.innerCardLink:hover{
+    background: none;
+    border: 1px solid black;
+}
+
 .innerCardLink span{
-    padding-left: 1em;
+    padding-left: .5em;
 }
 
 .servicesList img {
