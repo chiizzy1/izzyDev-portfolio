@@ -34,6 +34,7 @@ body, .fullScreenOverlay {
 }
 
 .tech-used{
+    font-family: 'Rubik', sans-serif;
     font-size: .8rem;
 }
 
@@ -302,10 +303,10 @@ main, .linkTree {
     filter: brightness(1.05);
 }
 
-.modularCard.withLinks > a {
+.modularCard.withLinks .cont {
     /* A rather cool hack. If you don't do something special, it's just display block with no collapse.*/
     display: table;
-    padding-inline: 1em;
+    padding: 1em;
     width: 100%;
     height: 100%;
 }
@@ -319,7 +320,7 @@ main, .linkTree {
 }
 
 .modularCard img {
-    margin-block: 1em;
+    /* margin-block: 1em; */
     border-radius: 1em;
 }
 
@@ -332,6 +333,24 @@ main, .linkTree {
 .projectList, .proficiencyList, .cssArtList, .illustrationList, .links {
     display: grid;
     grid-gap: 1rem;
+}
+
+.innerCardLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerCardLink{
+    background: #00bbff;
+    padding: 0.2em;
+    border-radius: 6px;
+    font-family: 'Rubik', sans-serif;
+    font-size: .75rem;
+}
+
+.innerCardLink span{
+    padding-left: 1em;
 }
 
 .servicesList img {
