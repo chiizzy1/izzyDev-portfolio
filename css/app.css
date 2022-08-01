@@ -583,6 +583,9 @@ main, .linkTree {
     transform: scale(1.05);
 }
 
+/*#linkTreeModal {*/
+/*    display: none;*/
+/*}*/
 
 /* social links */
 .mySocials{
