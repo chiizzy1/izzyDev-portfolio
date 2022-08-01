@@ -274,21 +274,21 @@ main, .linkTree {
 }
 
 .rotatingTextOuter {
-    height: 1.2em;
+    /* height: 1.2em;
     font-size: 1.2em;
     overflow-y: hidden;
     position: relative;
     display: block;
-    width: 100%;
+    width: 100%; */
     /*overflow-x: visible;*/
 }
 
 .rotatingTextOverlay {
-    font-size: 1em;
+    /* font-size: 1em;
     position: absolute;
     width: max-content;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 .modularCard {
@@ -389,7 +389,7 @@ main, .linkTree {
 
 
 .rotatingTextInner {
-    display: block;
+    /* display: block;
     line-height: 1.2em;
     font-size: 1em;
     color: transparent;
@@ -398,7 +398,7 @@ main, .linkTree {
     -webkit-background-clip: text;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
 }
 
 .proficiencyCard {
