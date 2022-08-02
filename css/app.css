@@ -390,7 +390,7 @@ main, .linkTree {
 
 .rotatingTextInner {
     display: block;
-    line-height: 1.2em;
+    line-height: 1em;
     font-size: 1em;
     color: transparent;
     background: var(--textGradient);
