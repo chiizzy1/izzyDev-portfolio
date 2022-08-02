@@ -205,10 +205,10 @@ main, .linkTree {
 /* Intro */
 
 .my-intro{
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
-    font-size: .9rem;
-    color: rgba(0, 0, 0, 0.654);
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.814);
 }
 /* Services Section */
 
