@@ -274,8 +274,8 @@ main, .linkTree {
 }
 
 .rotatingTextOuter {
-    height: 1em;
-    font-size: 1em;
+    height: 1.2em;
+    font-size: 1.2em;
     overflow-y: hidden;
     position: relative;
     display: block;
