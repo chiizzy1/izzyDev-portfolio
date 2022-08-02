@@ -227,10 +227,10 @@ main, .linkTree {
     align-items: center;
     /* justify-content: center; */
     text-align: left;
-    padding: 1em;
 }
 
 .my-service img{
+    padding-top: 1em;
     width: 5em;
 }
 
