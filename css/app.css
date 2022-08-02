@@ -68,8 +68,8 @@ ul {
 
 h1 {
     font-family: 'Rubik', sans-serif;
-    /* font-weight: bold; */
-    font-weight: 500;
+    font-weight: bold;
+    line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 2rem;
 }
@@ -389,7 +389,7 @@ main, .linkTree {
 
 .rotatingTextInner {
     display: block;
-    line-height: 1em;
+    line-height: 1.2em;
     font-size: 1em;
     color: transparent;
     background: var(--textGradient);
