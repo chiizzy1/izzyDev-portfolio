@@ -201,6 +201,15 @@ main, .linkTree {
     background-color: rgb(0, 0, 0);
 }
 
+
+/* Intro */
+
+.my-intro{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.654);
+}
 /* Services Section */
 
 .my-services{
