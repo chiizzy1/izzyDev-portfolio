@@ -209,6 +209,9 @@ main, .linkTree {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 1.2rem;
+}
+
+.my-name{
     color: orangered;
 }
 /* Services Section */
