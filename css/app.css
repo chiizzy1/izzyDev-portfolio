@@ -211,9 +211,10 @@ main, .linkTree {
     font-size: 1.2rem;
 }
 
-.my-name{
-    color: orangered;
+.name{
+    color: linear-gradient(90deg, #00bbff 0%,#b041ff 100%);
 }
+
 /* Services Section */
 
 .my-services{
