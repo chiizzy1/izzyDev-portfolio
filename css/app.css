@@ -211,6 +211,9 @@ main, .linkTree {
     font-size: 1.2rem;
 }
 
+.name-intro{
+    font-size: .5rem;
+}
 .name{
     color: purple;
 }
