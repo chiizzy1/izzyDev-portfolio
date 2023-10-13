@@ -10,6 +10,6 @@
 
     for (let element of document.querySelectorAll(".projectTags li")) {
         let elementColor = TEXT_TO_COLOR[element.textContent];
-        elementColor !== undefined && (element.style.backgroundColor = elementColor);
+        elementColor ? (element.style.backgroundColor = elementColor) : "skyblue";
     }
 })();
